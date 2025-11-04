@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1263</width>
+    <height>761</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">darktheme.qss</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>330</y>
+      <width>421</width>
+      <height>311</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="graphicsView_2">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>10</y>
+      <width>421</width>
+      <height>301</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>-10</y>
+      <width>61</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>GroupBox</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>310</y>
+      <width>61</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>GroupBox</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1263</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuNew_Window">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionNew_Output"/>
+    <addaction name="actionOpen_Last"/>
+    <addaction name="actionSave_Output"/>
+    <addaction name="actionClose"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionChoose_Dataset"/>
+    <addaction name="actionChoose_Algorithms"/>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>View</string>
+    </property>
+    <addaction name="actionPlot_1"/>
+    <addaction name="actionPlot_2"/>
+    <addaction name="actionPlot_3"/>
+    <addaction name="actionDiagram_1"/>
+    <addaction name="actionDiagram_2"/>
+    <addaction name="actionDiagram_3"/>
+    <addaction name="actionSet_of_Plots"/>
+   </widget>
+   <widget class="QMenu" name="menuBuild">
+    <property name="title">
+     <string>Build</string>
+    </property>
+    <addaction name="actionRun_and_Execute"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>About</string>
+    </property>
+    <addaction name="actionVersion"/>
+   </widget>
+   <addaction name="menuNew_Window"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuView"/>
+   <addaction name="menuBuild"/>
+   <addaction name="menuAbout"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNew_Output">
+   <property name="text">
+    <string>New Output</string>
+   </property>
+  </action>
+  <action name="actionOpen_Last">
+   <property name="text">
+    <string>Open Last</string>
+   </property>
+  </action>
+  <action name="actionSave_Output">
+   <property name="text">
+    <string>Save Output</string>
+   </property>
+  </action>
+  <action name="actionClose">
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+  <action name="actionChoose_Dataset">
+   <property name="text">
+    <string>Choose Dataset</string>
+   </property>
+  </action>
+  <action name="actionChoose_Algorithms">
+   <property name="text">
+    <string>Choose Algorithms</string>
+   </property>
+  </action>
+  <action name="actionPlot_1">
+   <property name="text">
+    <string>Plot_1</string>
+   </property>
+  </action>
+  <action name="actionPlot_2">
+   <property name="text">
+    <string>Plot_2</string>
+   </property>
+  </action>
+  <action name="actionPlot_3">
+   <property name="text">
+    <string>Plot_3</string>
+   </property>
+  </action>
+  <action name="actionDiagram_1">
+   <property name="text">
+    <string>Diagram_1</string>
+   </property>
+  </action>
+  <action name="actionDiagram_2">
+   <property name="text">
+    <string>Diagram_2</string>
+   </property>
+  </action>
+  <action name="actionDiagram_3">
+   <property name="text">
+    <string>Diagram_3</string>
+   </property>
+  </action>
+  <action name="actionSet_of_Plots">
+   <property name="text">
+    <string>Set of Plots</string>
+   </property>
+  </action>
+  <action name="actionRun_and_Execute">
+   <property name="text">
+    <string>Run and Execute</string>
+   </property>
+  </action>
+  <action name="actionVersion">
+   <property name="text">
+    <string>Version</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
